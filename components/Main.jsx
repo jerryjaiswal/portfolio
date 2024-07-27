@@ -7,7 +7,7 @@ const Main = () => {
 
   const [loopNum , setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false); 
-  const toRotate = ["Product Enthusiast", "Android Devloper","Management Guy" ];
+  const toRotate = ["Web3 BD Enthusiast","Product Enthusiast", "Management Enthusiast","Android Developer" ];
   const [text,setText] = useState('');
   const [index, setIndex] = useState(1);
   const [delta, setDelta] = useState(300 - Math.random() * 100);
@@ -40,7 +40,7 @@ const Main = () => {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
       setIndex(1);
-      setDelta(500);
+      setDelta(100);
     } else {
       setIndex(prevIndex => prevIndex + 1);
     }
@@ -61,11 +61,13 @@ const Main = () => {
           <h1 className="text-[#8892b0]">{text}</h1>
         </div>
         <p className=" my-5 text-[#8892b0] leading-relaxed w-[540px]">
-          Hi, I am a web developer and computer science undergraduate at the
-          Indian Institute of Information Technology Vadodara. My passion for
-          exploring the latest technology tools drives me to create innovative
-          solutions and develop my skills in this field. I am always eager to
-          learn new ways to improve my abilities as a developer.
+
+        Hi,I recently graduated with a degree in computer science from IIIT Vadodara. 
+        Throughout my academic journey, I've specialized in Android development, 
+        product management, event planning, and business development in both Web2 and 
+        Web3 domains. Dedicated to leveraging cutting-edge technology, my passion lies
+        in crafting innovative solutions. I'm driven by my eagerness to stay updated with
+        industry advancements, constantly refining my skills and introducing groundbreaking ideas.
         </p>
       </div>
       <div className="font-mono  mx-40 text-sm tracking-wide  rounded-[4px] border-[1px] flex justify-center items-center rounded-[4px] border-[1px] w-[150px] h-[50px] text-center cursor-pointer w-20 h-10 text-center border-[#64ffda] text-[#64ffda]  transition ease-in-out hover:scale-90 duration-300 ">

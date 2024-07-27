@@ -7,13 +7,12 @@ import  Main  from '../components/Main'
 // import Projects from '../app/project/page'
 import Info from '../components/Info'
 import Experience from '../components/Experience'
-import MoreProjects from '../components/MoreProjects'
+import PositionsOfResponsibility from '../components/PositionsOfResponsibility'
 // import InfoMail from '../components/InfoMail'
 import Link from 'next/link'
 
 import About from '../components/About'
 import Contact from '../components/Contact'
-import Projects from '../components/Projects'
 
 export default function Home() {
   return (
@@ -22,8 +21,7 @@ export default function Home() {
       <Main />
       <About  />
       <Experience />
-      <Projects />
-      <MoreProjects />
+      <PositionsOfResponsibility />
       <Contact />
       <Info />
       {/* <InfoMail /> */}

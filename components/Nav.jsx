@@ -18,13 +18,13 @@ const Nav = () => {
           <div className="flex items-center">
             <ul className="flex">
               <li className=" tracking-wide font-light text-[#ccd6f6] my-1 mx-4 transition duration-300 ease-in-out cursor-pointer text-sm hover:text-[#64ffda]">
-                <span className=" text-[#64ffda]">01. </span><Link href='/about'  >About</Link>
+                <span className=" text-[#64ffda]">01. </span><Link href='/about' >About</Link>
               </li>
               <li className="tracking-wide font-light text-[#ccd6f6] my-1 mx-4 transition duration-300 ease-in-out cursor-pointer text-sm hover:text-[#64ffda]">
                 <span className="text-[#64ffda]">02. </span><Link href='/experience'>Experience</Link>
               </li>
               <li className="tracking-wide font-light text-[#ccd6f6] my-1 mx-4 transition duration-300 ease-in-out cursor-pointer text-sm hover:text-[#64ffda]">
-                <span className="text-[#64ffda]">03. </span><Link href='/project'>Work</Link>
+                <span className="text-[#64ffda]">03. </span><Link href='/positionsofresponsibility'>POR</Link>
               </li>
               <li className="tracking-wide font-light text-[#ccd6f6] my-1 mx-4 transition duration-300 ease-in-out cursor-pointer  text-sm hover:text-[#64ffda]">
                 <span className="text-[#64ffda]">04. </span><Link href='/contact'>Contact</Link>
