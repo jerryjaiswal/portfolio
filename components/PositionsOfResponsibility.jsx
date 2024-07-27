@@ -140,7 +140,7 @@ const PositionsOfResponsibility = () => {
                 Member, 9Bit - The Robotics Club, IIITV
               </h1>
               <p className="text-[#a8b2d1] my-2">
-                Engaged in robotics projects and competitions, contributing to the club's achievements.
+                Engaged in robotics projects and competitions, contributing to the club&apos;s achievements.
               </p>
             </div>
           </div>

@@ -19,7 +19,7 @@ const Main = () => {
     }, delta);
 
     return () => { clearInterval(ticker) };
-  }, [text])
+  }, [tick, delta])
 
   const tick = () => {
     let i = loopNum % toRotate.length;
@@ -63,10 +63,10 @@ const Main = () => {
         <p className=" my-5 text-[#8892b0] leading-relaxed w-[540px]">
 
         Hi,I recently graduated with a degree in computer science from IIIT Vadodara. 
-        Throughout my academic journey, I've specialized in Android development, 
+        Throughout my academic journey, I&apos;ve specialized in Android development, 
         product management, event planning, and business development in both Web2 and 
         Web3 domains. Dedicated to leveraging cutting-edge technology, my passion lies
-        in crafting innovative solutions. I'm driven by my eagerness to stay updated with
+        in crafting innovative solutions. I&apos;m driven by my eagerness to stay updated with
         industry advancements, constantly refining my skills and introducing groundbreaking ideas.
         </p>
       </div>
